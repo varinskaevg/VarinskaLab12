@@ -1,0 +1,127 @@
+.content {
+  margin-top: 70px;
+  justify-content: space-between;
+
+}
+.header2 {
+  display: flex;
+  font-size: 3vh;
+  font-weight: normal;
+  padding: 10px;
+  font-stretch: normal;
+  background: #464040;
+}
+.left {
+  align-self: center;
+  margin-left: 100px;
+  font-weight: bold;
+  color: white;
+}
+
+.right {
+  align-self: center;
+  margin-right: 50px;
+
+}
+.right img{
+  height: 15px;
+  width: 15px;
+}
+.mult {
+  margin-top: 10px;
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 0;
+  text-align: center;
+}
+.mult img {
+  margin-right: 10px;
+  margin-left: 30px;
+}
+.image-row {
+  display: flex;
+}
+.image-container {
+  width: 100%; /* розмір блоку для чотирьох мультимедійних елементів в ряд */
+  padding: 0px;
+}
+
+.image-container img {
+  max-width: 85%; /* забезпечує масштабування картинки до розміру блоку */
+}
+
+.image-container p {
+  margin-top: 5px; /* додавання відступу зверху */
+  margin-left: 40px;
+  position: relative;
+}
+.slider, .slider1{
+  position: absolute;
+  max-width: 89%;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.slider_item,
+.slider_item1{
+  max-width: 26vw;
+  margin-left: 50px;
+  box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.3);
+}
+.slick-list {
+  overflow: hidden;
+}
+.slick-track{
+  display: flex;
+}
+.slider-container, .slider, .slider1{
+  min-width: 0;
+}
+.box{
+  text-decoration: none;
+  color: #000;
+  margin: 20px;
+  font-weight: bold;
+
+}
+
+.box:hover {
+  color: #000;
+}
+.content2 {
+  margin-top: 250px;
+  justify-content: space-between;
+}
+.header3 {
+  display: flex;
+  font-size: 3vh;
+  font-weight: normal;
+  padding: 10px;
+  font-stretch: normal;
+  background: #464040;
+}
+.serial {
+  margin-top: 10px;
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 0;
+  text-align: center;
+}
+.serial img {
+  margin-right: 10px;
+  margin-left: 30px;
+}
+img {
+  transition: all 0.2s ease-in-out;
+  max-width: 100%;
+}
+
+img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
